@@ -7,10 +7,10 @@ export default function Search({ search, setSearch, handleSearch }) {
                 placeholder="Enter City Name"
                 name="search"
                 value={search}
-                onChange={(evt) => setSearch(evt.target.value)}
+                onChange={(evt) => setSearch(evt.target.value.toLowerCase())}
             />
             <button className="searchBtn" onClick={handleSearch}>
-                Search Weather
+                Search
             </button>
         </div>
     );
