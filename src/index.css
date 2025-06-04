@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+#root {
+    width: 100%;
+}
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* color-scheme: light dark; */
+}
+
+a {
+    font-weight: 500;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.app {
+    margin: 50px auto 0;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background-color: rgb(0, 255, 166);
+}
+
+button {
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.searchEngine {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.citySearch {
+    width: 70%;
+    height: 45px;
+    border: 1px solid #cecece;
+    border-radius: 8px;
+    padding: 2px 15px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    color: #555;
+}
+.searchBtn {
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    padding: 9px 15px;
+}
+.city-name {
+    margin-bottom: 10px;
+}
+.loading {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #000;
+}
+.date {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+.temp {
+    font-size: 64px;
+    color: #000;
+    font-weight: bold;
+}
+.description {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.weather-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.column {
+    display: flex;
+    align-items: center;
+    line-height: 1px;
+}
